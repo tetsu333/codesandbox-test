@@ -1,10 +1,39 @@
-import "./styles.css";
+// var val1 = "var変数";
+// console.log(val1);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// val1 = "val上書き";
+// console.log(val1);
+
+// var val1 = "var再宣言";
+// console.log(val1);
+
+// let val2 = "let変数";
+// console.log(val2);
+
+// val2 = "let上書き";
+// console.log(val2);
+
+// let val2 = "let再宣言";
+// console.log(val2);
+
+// const val3 = "const変数";
+// console.log(val3);
+
+// val3 = "const上書き";
+// console.log(val3);
+
+// const val3 = "const再宣言";
+// console.log(val3);
+
+// const val4 = {
+//   name: "hoge",
+//   age: 10
+// };
+// val4.name = "fuga";
+// val4.addres = "日本";
+// console.log(val4);
+
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
+console.log(val5);
