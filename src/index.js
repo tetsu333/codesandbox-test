@@ -53,8 +53,26 @@
 //   return str;
 // };
 
-const func2 = (str) => str;
-console.log(func2("func2です"));
+// const func2 = (str) => str;
+// console.log(func2("func2です"));
 
-const func3 = (num1, num2) => num1 + num2;
-console.log(func3(10, 20));
+// const func3 = (num1, num2) => num1 + num2;
+// console.log(func3(10, 20));
+
+// const myProfile = {
+//   name: "Tom",
+//   age: 10
+// };
+
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}です。`
+// console.log(message1)
+
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
+
+const myProfile = ["tom", 20];
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+const [name, age] = myProfile;
+const message4 = `名前は${name}です。年齢は${age}です。`;
+console.log(message4);
