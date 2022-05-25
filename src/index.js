@@ -38,9 +38,23 @@
 // val5.push("monkey");
 // console.log(val5);
 
-const name = "tom";
-const age = 10;
-const message1 = "私の名前は" + name + "です。年齢は" + age + "です";
-console.log(message1);
-const message2 = `私の名前は${name}です。年齢は${age}です。`;
-console.log(message2);
+// const name = "tom";
+// const age = 10;
+// const message1 = "私の名前は" + name + "です。年齢は" + age + "です";
+// console.log(message1);
+// const message2 = `私の名前は${name}です。年齢は${age}です。`;
+// console.log(message2);
+
+// function func1(str) {
+//   return str;
+// }
+
+// const func1 = function (str) {
+//   return str;
+// };
+
+const func2 = (str) => str;
+console.log(func2("func2です"));
+
+const func3 = (num1, num2) => num1 + num2;
+console.log(func3(10, 20));
