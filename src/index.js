@@ -145,7 +145,24 @@ const nameArr = ["田中", "山田", "佐藤"];
 //   typeof num === "number" ? num.toLocaleString() : "数値を入力してください。";
 // console.log(formattedNum);
 
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "１００を超えています" : "許容範囲内です";
-};
-console.log(checkSum(50, 40));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "１００を超えています" : "許容範囲内です";
+// };
+// console.log(checkSum(50, 40));
+
+// const flag1 = true;
+// const flag2 = false;
+// if (flag1 || flag2) {
+//   console.log("１か２はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("１も２もtrueになります");
+// }
+
+// const num = 100;
+// const fee = num || "金額未設定です。";
+// console.log(fee);
+
+const num2 = null;
+const fee2 = num2 && "何か設定されました";
+console.log(fee2);
