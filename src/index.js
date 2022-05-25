@@ -71,8 +71,11 @@
 // const message2 = `名前は${name}です。年齢は${age}です。`;
 // console.log(message2);
 
-const myProfile = ["tom", 20];
-// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
-const [name, age] = myProfile;
-const message4 = `名前は${name}です。年齢は${age}です。`;
-console.log(message4);
+// const myProfile = ["tom", 20];
+// // const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です。`;
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message4);
+
+const sayHello = (name = "太郎") => console.log(`こんにちは！${name}さん！`);
+sayHello("Tom");
